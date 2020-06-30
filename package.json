@@ -1,0 +1,24 @@
+{
+  "name": "kana-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Katara/Kana-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Katara/Kana-proxy/issues"
+  },
+  "homepage": "https://github.com/Team-Katara/Kana-proxy#readme",
+  "dependencies": {
+    "eslint": "^7.3.1",
+    "express": "^4.17.1"
+  }
+}
