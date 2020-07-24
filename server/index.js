@@ -12,6 +12,13 @@ app.use (express.static(__dirname + '/../public'));
 // app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, '../public/index.html'));
 // });
+app.get('/loaderio-301b0523e389fbd6ffe3227f47c7bd6e', (req, res) => {
+  var tok = 'loaderio-301b0523e389fbd6ffe3227f47c7bd6e';
+  //var loader = path.join(__dirname, loc);
+  res.status(200).send(tok);
+});
+
+
 
 // use port 3000 unless there exists a preconfigured port
 var port = process.env.port || 4000;
